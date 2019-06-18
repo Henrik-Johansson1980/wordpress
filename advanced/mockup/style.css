@@ -1,0 +1,178 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  font-size: 1rem;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+    text-transform: uppercase;
+  text-decoration: none;
+  color: #009acd;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #333;
+  transition: ease-in 0.3s;
+  -webkit-transition: ease-in 0.3s;
+  -moz-transition: ease-in 0.3s;
+  -ms-transition: ease-in 0.3s;
+  -o-transition: ease-in 0.3s;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: auto;
+}
+
+header {
+  background: #f4f4f4;
+  padding: 1vw;
+  border-bottom: solid 3px #009acd;
+}
+
+header h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 2rem;
+  color: #009acd;
+  float: left;
+}
+
+header h1 a {
+  text-decoration: none;
+  color: #009acd;
+}
+
+header small {
+  display: inline-block;
+  color: #666;
+  margin-left: 0.1rem;
+  font-size: 0.7rem;
+}
+
+header .h-right {
+  float: right;
+}
+header input[type="text"],
+header button {
+  margin-top: 1rem;
+  padding: 0.1rem;
+}
+
+nav {
+  padding: 0.5rem 0;
+  overflow: hidden;
+  background: #333;
+  color: #eee;
+}
+nav li {
+  float: left;
+  padding-right: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #eee;
+}
+
+nav a:hover,
+nav a:focus {
+  color: #009acd;
+}
+
+.content {
+  margin-top: 2rem;
+  line-height: 1.5rem;
+}
+
+main {
+  float: left;
+  width: 65%;
+}
+
+aside .sidebar {
+  float: right;
+  width: 30%;
+}
+
+.block {
+  border: solid #ccc 1px;
+  padding: 0.1rem 1rem 1.5rem 1rem;
+  background: #fcfcfc;
+  overflow: hidden;
+}
+
+.block h3 {
+  border-bottom: #ccc solid 1px;
+  padding-bottom: 0.6rem;
+}
+
+article.post {
+  border-bottom: #ccc solid 1px;
+  margin-bottom: 0.8rem;
+  padding-bottom: 1.2rem;
+}
+
+article.post .meta {
+  background: #009acd;
+  color: #eee;
+  padding: .6rem;
+}
+
+.btn{
+    background: #009acd;
+    color: #eee;
+    padding: .5rem 1rem;
+    display: inline-block;
+}
+
+.btn:hover{
+    color: #eee;
+    box-shadow: 2px 2px 2px#333;
+    text-decoration: none;
+}
+
+footer{
+    height: 4rem;
+    margin-top: 2.5rem;
+    text-align: center;
+    background: #333;
+    color: #eee;
+    padding-top: .6rem;
+    overflow: auto;
+}
+
+footer .f-left{
+    float: left;
+}
+footer .f-right{
+    margin-top: .8rem;
+    float: right;
+}
+
+footer ul {
+    display: inline;
+}
+footer li {
+    float:left;
+    padding-right: .6rem;
+    list-style: none;
+}
+
+footer a{
+    color: #eee;
+}
+footer a:hover,
+footer a:focus {
+    color: #009acd;
+}
