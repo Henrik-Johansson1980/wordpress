@@ -1,0 +1,40 @@
+/*
+  Theme Name: Wordstrap Theme
+  Author: Henrik Johansson
+  Author URI: http://henrik-johansson.se
+  Description: Basic Bootstrap Theme for Wordpress.
+  Version: 1.0.
+*/
+
+.index{
+  margin-top: 1rem;
+}
+
+article.post {
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #ccc;
+}
+
+article.post:last-child{
+  border-bottom: none;
+}
+
+article.post img{
+  width: 100%;
+  height: auto;
+  margin-top: .5rem;
+}
+
+article.post .meta{
+  background: #f4f4f4;
+  padding: .2rem;
+}
+
+.comment-item{
+  margin-top: .5rem;
+  overflow: auto;
+}
+.comment-list{
+  list-style-type: none;
+}
